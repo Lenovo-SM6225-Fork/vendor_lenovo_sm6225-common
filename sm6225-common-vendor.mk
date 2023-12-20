@@ -6,11 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lenovo/sm6225-common
 
 PRODUCT_COPY_FILES += \
-    vendor/lenovo/sm6225-common/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.Performance.xml \
-    vendor/lenovo/sm6225-common/proprietary/etc/permissions/com.qualcomm.qti.UxPerformance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.UxPerformance.xml \
     vendor/lenovo/sm6225-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/lenovo/sm6225-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    vendor/lenovo/sm6225-common/proprietary/lib64/libtflite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtflite.so \
+    vendor/lenovo/sm6225-common/proprietary/lib64/libtflite.tb128fu.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtflite.tb128fu.so \
     vendor/lenovo/sm6225-common/proprietary/system_ext/lib64/libwfdinput.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdinput.so \
     vendor/lenovo/sm6225-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/lenovo/sm6225-common/proprietary/system_ext/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/perfservice \
